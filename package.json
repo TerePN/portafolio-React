@@ -11,6 +11,7 @@
   "dependencies": {
     "@material-ui/core": "^4.12.4",
     "@mui/icons-material": "^5.10.9",
+    "animate.css": "^4.1.1",
     "bootstrap": "^5.2.2",
     "bootstrap-icons": "^1.9.1",
     "bootswatch": "^5.2.2",
