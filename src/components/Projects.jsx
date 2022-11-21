@@ -40,24 +40,24 @@ const Projects = () => {
   const certificates= [
     
     {
-      title: "Business Startup",
+      title: "Web Development Fundamentals",
       description: "Design & Development",
       imgUrl: Img1,
     },
     {
-      title: "Business Startup",
+      title: "JavaScript (Programming Language)",
       description: "Design & Development",
       imgUrl: Img3,
     },
     
     {
-      title: "Business Startup",
+      title: "HyperText Markup Language (HTML)",
       description: "Design & Development",
       imgUrl: Img2,
     },
     {
-      title: "Business Startup",
-      description: "Design & Development",
+      title: "Web Application Development with React",
+      description: "Full Stack Software Engineering",
       imgUrl: Img4,
     },
   ];
@@ -66,7 +66,7 @@ const Projects = () => {
     <section className="project" id="project">
       <Container>
         <Row>
-          <Col size={12} >
+          <Col size={12}>
             <TrackVisibility>
               {({ isVisible }) =>
               <div className={isVisible ? "animate__animated animate__fadeIn": ""}>
