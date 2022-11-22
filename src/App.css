@@ -122,7 +122,7 @@ span.navbar-text {
 .social-icon a {
     width: 42px;
     height: 42px;
-    background: rgba(217, 217, 217, 0.1);
+    /* background: rgba(217, 217, 217, 0.1); */
     display: inline-flex;
     margin-right: 6px;
     align-items: center;
@@ -146,6 +146,15 @@ span.navbar-text {
 	width: 40%;
 	z-index: 1;
 	transition: 0.3s ease-in-out;
+}
+.social-icon a i {
+	width: 40%;
+	z-index: 1;
+	transition: 0.3s ease-in-out;
+  color:white ;
+}
+.social-icon a:hover i {
+	filter: brightness(0) saturate(100%) invert(0%) sepia(7%) saturate(98%) hue-rotate(346deg) brightness(95%) contrast(86%);
 }
 .social-icon a:hover img {
 	filter: brightness(0) saturate(100%) invert(0%) sepia(7%) saturate(98%) hue-rotate(346deg) brightness(95%) contrast(86%);
@@ -431,7 +440,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 .proj-imgbx::before {
   content: "";
-  background: linear-gradient(90.21deg, #AA367C -5.91%, #4A2FBD 111.58%);
+  background: linear-gradient(90.21deg, #f88acc -5.91%, #ab9fe4 111.58%);
   opacity: 0.85;
   position: absolute;
   width: 100%;
@@ -599,14 +608,14 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   bottom: 0;
   right: 0;
 }
-/* .new-email-bx input {
+.new-email-bx input {
   width: 100%;
   color: #121212;
   font-weight: 500;
   background: transparent;
   border: 0;
   padding: 0 15px;
-} */
+}
 .new-email-bx button {
   background: linear-gradient(90.21deg, #AA367C -5.91%, #4A2FBD 111.58%);
   padding: 20px 65px;

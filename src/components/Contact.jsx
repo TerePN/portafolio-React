@@ -54,7 +54,7 @@ export const Contact = () => {
               }
             </TrackVisibility>
           </Col> */}
-          <Col size={12} >
+          <Col size={12}  >
             <TrackVisibility>
               {({ isVisible }) => (
                 <div
