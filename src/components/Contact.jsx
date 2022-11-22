@@ -47,14 +47,14 @@ export const Contact = () => {
     <section className="contact" id="connect">
       <Container>
         <Row className="align-items-center">
-          <Col size={12} md={6}>
-            {/* <TrackVisibility>
+          {/* <Col size={12} md={6}>
+            <TrackVisibility>
               {({ isVisible }) =>
                 <img className={isVisible ? "animate__animated animate__zoomIn" : ""} src={contactImg} alt="Contact Us"/>
               }
-            </TrackVisibility> */}
-          </Col>
-          <Col size={12} sm={6} md={4}>
+            </TrackVisibility>
+          </Col> */}
+          <Col size={12} >
             <TrackVisibility>
               {({ isVisible }) => (
                 <div

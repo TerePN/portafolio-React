@@ -1,8 +1,10 @@
 import { Container, Row, Col, Tab, Nav } from "react-bootstrap";
 import { ProjectCard } from "./ProjectCard";
-import projImg1 from "../assets/img/POKEMON.jpg";
-import projImg2 from "../assets/img/project-img2.png";
-import projImg3 from "../assets/img/project-img3.png";
+import projImg1 from "../assets/img/POKEAPI.jpeg";
+import projImg2 from "../assets/img/RICKYandMORTY.jpeg";
+import projImg3 from "../assets/img/ECOMMERCE.jpeg";
+import projImg4 from "../assets/img/appReact.jpeg";
+
 import Img1 from "../assets/img/fundamentos.png";
 import Img2 from "../assets/img/html.jpeg";
 import Img3 from "../assets/img/java_script.jpeg";
@@ -20,20 +22,20 @@ const Projects = () => {
       imgUrl: projImg1,
     },
     {
-      title: "Business Startup",
+      title: "Ricky and Morty",
       description: "Design & Development",
       imgUrl: projImg2,
     },
     {
-      title: "Business Startup",
+      title: "E-commerce",
       description: "Design & Development",
       imgUrl: projImg3,
     },
     
     {
-      title: "Business Startup",
+      title: "App React",
       description: "Design & Development",
-      imgUrl: projImg2,
+      imgUrl: projImg4,
     },
     
   ];
